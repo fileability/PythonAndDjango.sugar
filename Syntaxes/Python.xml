@@ -50,7 +50,7 @@
 				<capture number="2" name="punctuation.string.begin"/>
 			</starts-with>
 			<ends-with>
-				<expression>(\'|\")</expression>
+				<expression>(\2)</expression>
 				<capture number="1" name="punctuation.string.end"/>
 			</ends-with>
 			<subzones>
